@@ -1,0 +1,667 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/5f5c0e98df.js" crossorigin="anonymous"></script>
+
+    <title>Processing</title>
+</head>
+<body>
+    
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+
+                <a href="#" class="header__logo">
+                    <img class="header__logo__img" src="css/img/logo.svg" alt="">
+                </a>
+
+                <div class="header__item">
+                    <img class="icons__phone" src="css/img/icons/phone.svg" alt="">
+                    <div class="header__phone">8 (495) 127-82-80</div>
+                    <div class="header__item__block">
+                        <a href="#" class="header__item__btn">Напишите нам</a>
+                        <a class="header__item__btn" href="">
+                            <img class="header__item__block__user" src="css/img/icons/user.svg" alt="">
+                            Личный кабинет
+                        </a>
+                    </div>
+                </div>
+
+                <div class="header__media">
+                    <div class="header__media__btn">
+                        <a class="header__media__a" href="">
+                            <img src="css/img/icons/user.svg" alt="">
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="header__underInner">
+            <div class="container">
+
+                <nav class="nav">
+                    <a class="nav__link" href="#">Доставка топлива</a>
+                    <a class="nav__link" href="#">
+                        <select class="nav__link" name="" id="">
+                            <option value="">
+                                Топливные карты
+                            </option>
+                            <option value="">
+                                Топливные карты
+                            </option>
+                            <option value="">
+                                Топливные карты
+                            </option>
+                        </select>
+                    </a>
+                    <a class="nav__link" href="#">
+                        <select class="nav__link" name="" id="">
+                            <option value="">АЗС</option>
+                            <option value="">АЗС</option>
+                            <option value="">АЗС</option>
+                        </select>
+                    </a>
+                    <a class="nav__link" href="#">Цены на топливо</a>
+                    <a class="nav__link" href="#">
+                        <select class="nav__link" name="" id="">
+                            <option value="">О компании</option>
+                            <option value="">О компании</option>
+                            <option value="">О компании</option>
+                        </select>
+                    </a>
+                    <a class="nav__link" href="#">Контакты</a>
+                </nav>
+
+            </div>
+        </div>
+    </header>
+
+    <nav>
+        <div class="navbar">
+          <div class="container nav-container">
+              <input class="checkbox" type="checkbox" name="" id="" />
+              <div class="hamburger-lines">
+                <span class="line line1"></span>
+                <span class="line line2"></span>
+                <span class="line line3"></span>
+              </div>  
+            <div class="logo">
+              <h1>Navbar</h1>
+            </div>
+            <div class="menu-items">
+              <li><a href="#">Home</a></li>
+              <li><a href="#">about</a></li>
+              <li><a href="#">blogs</a></li>
+              <li><a href="#">portfolio</a></li>
+              <li><a href="#">contact</a></li>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+    <!-- Intro -->
+    <section class="intro">
+        <div class="container">
+            <div class="intro__inner">
+
+                <h1 class="intro__title">Доставка топлива</h1>
+
+                <div class="intro__item">
+
+                    <h1 class="intro__item__title">Быстрый <span>заказ топлива</span></h1>
+
+                    <div class="intro__item__block">
+
+                        <div class="intro__item__inputs">
+                            <label class="intro__item__label" for="input-name">Ваше имя</label>
+                            <input class="intro__item__input" type="text" name="name">
+                        </div>
+                        <div class="intro__item__inputs">
+                            <label class="intro__item__label" for="input-name">Номер телефона</label>
+                            <input class="intro__item__input" type="tel" name="tel" value="+7">
+                        </div>
+
+
+                        <a class="intro__btn" href="#">Заказать топливо</a>
+
+                    </div>
+
+                    <div class="intro__item__checkbox">
+                        <input class="intro__checkbox" type="checkbox">
+                        <label class="intro__checkbox__label" for="input-name">Я согласен с условиями обработки данных</label>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Price -->
+    <section class="price">
+        <div class="container">
+            <div class="price__inner">
+
+                <h1 class="price__title">Стоимость топлива</h1>
+
+                <nav class="nav price__nav">
+                    <a class="price__nav__link link-1" href="">Сорт топлива</a>
+                    <a class="price__nav__link link-2" href="">Экологический класс</a>
+                    <a class="price__nav__link link-3" href="">Производитель</a>
+                    <a class="price__nav__link link-4" href="">Наличный расчет</a>
+                    <a class="price__nav__link link-5" href="">Безналичный расчет</a>
+                </nav>
+
+                <table>
+                    <tr>
+                        <td rowspan="6" class="DT">DT</td>
+                    </tr>
+                    <tr>
+                      <td rowspan="3" class="first">ЕВРО-5</td>
+                      <td class="td-1">Газпромнефть</td>
+                      <td>45.43 р.</td>
+                      <td>44.43 р.</td>
+                    </tr>
+
+                    <tr>
+                      <td class="td-1">Лукойл</td>
+                      <td>45.16 р.</td>
+                      <td>43.98 р.</td>
+                    </tr>
+
+                    <tr>
+                      <td class="td-1">Роснефть</td>
+                      <td>42.34 р.</td>
+                      <td>41.64 р.</td>
+                    </tr>
+
+                    <tr>
+                      <td rowspan="3" class="first-2">ЕВРО-4</td>
+                      <td class="td-1">Газпромнефть</td>
+                      <td>-</td>
+                      <td>-</td>
+                    </tr>
+
+                    <tr>
+                      <td class="td-1">Лукойл</td>
+                      <td>41.16 р.</td>
+                      <td>40.67 р.</td>
+                    </tr>
+                </table>
+
+                <table>
+                    <tr>
+                        <td rowspan="8" class="DT AI">АИ-95</td>
+                    </tr>
+                    <tr>
+                      <td rowspan="3" class="first">ЕВРО-5</td>
+                      <td class="td-1">Газпромнефть</td>
+                      <td>45.43 р.</td>
+                      <td>44.43 р.</td>
+                    </tr>
+
+                    <tr>
+                      <td class="td-1">Лукойл</td>
+                      <td>45.16 р.</td>
+                      <td>43.98 р.</td>
+                    </tr>
+
+                    <tr>
+                      <td class="td-1">Роснефть</td>
+                      <td>42.34 р.</td>
+                      <td>41.64 р.</td>
+                    </tr>
+
+                    <tr>
+                      <td rowspan="2" class="first-2">ЕВРО-4</td>
+                      <td class="td-1">Газпромнефть</td>
+                      <td>-</td>
+                      <td>-</td>
+                    </tr>
+
+                    <tr>
+                      <td class="td-1">Лукойл</td>
+                      <td>41.16 р.</td>
+                      <td>40.67 р.</td>
+                    </tr>
+                    <tr>
+                        <td rowspan="3" class="first-2">ЕВРО-3</td>
+                        <td class="td-1">Газпромнефть</td>
+                        <td>-</td>
+                        <td>-</td>
+                      </tr>
+  
+                      <tr>
+                        <td class="td-1">Лукойл</td>
+                        <td>41.16 р.</td>
+                        <td>40.67 р.</td>
+                      </tr>
+                </table>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Delivery -->
+    <section class="delivery">
+        <div class="container">
+            <div class="delivery__inner">
+
+                <div class="delivery__item">
+
+                    <h1 class="delivery__title">Топливо с доставкой</h1>
+
+                    <label class="delivery__label" for="input-name">Вид топлива</label>
+                    <form class="delivery__form" action="select1.php" method="post">
+                        <select class="delivery__select" name="fuel" id="">
+                            <option class="delivery__option" value="">ДТ</option>
+                            <option class="delivery__option" value="">АИ-95</option>
+                            <option class="delivery__option" value="">...</option>
+                            <option class="delivery__option" value="">...</option>
+                            <option class="delivery__option" value="">...</option>
+                        </select>
+                    </form>
+
+                    <label class="delivery__label" for="input-name">Объем топлива</label>
+                    <form class="delivery__form" action="/action_page.php" method="get">
+                        <input class="delivery__input" type="range" id="vol" name="vol" min="0" max="2000">
+                    </form>
+
+                    <label class="delivery__label" for="input-name">Место доставки</label>
+                    <form class="delivery__form" action="/action_page.php" method="get">
+                        <input class="delivery__input" type="text" placeholder="Укажите место">
+                    </form>
+
+                    <label class="delivery__label" for="input-name">Ваше имя</label>
+                    <form class="delivery__form" action="/action_page.php" method="get">
+                        <input class="delivery__input" type="text" placeholder="Иван">
+                    </form>
+
+                    <label class="delivery__label" for="input-name">Номер телефона</label>
+                    <form class="delivery__form" action="/action_page.php" method="get">
+                        <input class="delivery__input" type="tel" placeholder="+7 (___) ___-__-__">
+                    </form>
+                     
+                </div>
+
+                <div class="delivery__item__resault">
+                    <div class="delivery__item__block">
+                        <h1 class="delivery__item__title">Итого</h1>
+
+                        <div class="blank"></div>
+                        <div class="delivery__item__price">
+                            Стоимость топлива
+                            <span>77 350.00 ₽</span>
+                        </div>
+                        <div class="blank"></div>
+                        <div class="delivery__item__price">
+                            Цена за литр:
+                            <span>45.50 ₽</span>
+                        </div>
+                        <div class="delivery__resault__text">
+                            Цена и стоимость указаны ориентировочно. 
+                            Точные цену и стоимость собщит наш менеджер при подтверждении заявки.
+                        </div>
+                        <div class="blank"></div>
+                        <div class="delivery__item__price">
+                            Выгода:
+                            <b>6 953.00 ₽</b>
+                        </div>
+                        <div class="delivery__resault__text">
+                            При цене на АЗС  49.59 ₽  за литр, цены актуальны на  23.11.2020 г. 
+                        </div>
+
+                        <a class="delivery__item__btn" href="#">Заказать топливо</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Work -->
+    <section class="work">
+        <div class="container">
+            <div class="work__inner">
+
+                <h1 class="work__title">Как мы работаем</h1>
+
+                <div class="work__item">
+                    
+                    <div class="work__item__up">
+                        <img class="work__item__icon" src="css/img/icons/work/click.svg" alt="">
+                        <div class="work__item__time">
+                            1-3 мин.
+                            <img src="css/img/icons/work/Vector 3.svg" alt="">
+                        </div>
+                    </div>
+
+                    <div class="work__item__title">Оформление заявки</div>
+                    <div class="work__item__text">Заполните заявку на сайте, укажите удобное для вас место приезда заправщика, сорт и количество топлива, которое хотите купить</div>
+
+                </div>
+
+                <div class="work__item">
+                    
+                    <div class="work__item__up">
+                        <img class="work__item__icon" src="css/img/icons/work/click.svg" alt="">
+                        <div class="work__item__time">
+                            1-3 мин.
+                            <img src="css/img/icons/work/Vector 3.svg" alt="">
+                        </div>
+                    </div>
+
+                    <div class="work__item__title">Оформление заявки</div>
+                    <div class="work__item__text">Заполните заявку на сайте, укажите удобное для вас место приезда заправщика, сорт и количество топлива, которое хотите купить</div>
+
+                </div>
+
+                <div class="work__item">
+                    
+                    <div class="work__item__up">
+                        <img class="work__item__icon" src="css/img/icons/work/click.svg" alt="">
+                        <div class="work__item__time">
+                            1-3 мин.
+                            <img src="css/img/icons/work/Vector 3.svg" alt="">
+                        </div>
+                    </div>
+
+                    <div class="work__item__title">Оформление заявки</div>
+                    <div class="work__item__text">Заполните заявку на сайте, укажите удобное для вас место приезда заправщика, сорт и количество топлива, которое хотите купить</div>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Service -->
+    <section class="service">
+        <div class="container">
+            <div class="service__inner">
+
+                <h1 class="service__title">Преимущества сервиса</h1>
+
+                <div class="service__outer">
+                    <div class="service__item">
+                        <img class="service__item__icon" src="css/img/icons/service/certificate.svg" alt="">
+                        <div class="service__subitem">
+                            <h1 class="service__subitem__title">Качество топлива</h1>
+                            <div class="service__subitem__text">Aliquam rhoncus et massa adipiscing risus leo nec lacus, sagittis. Eu, purus ac nisi sit eget sed et, adipiscing felis.</div>
+                        </div>
+                    </div>
+                    <div class="service__item">
+                        <img class="service__item__icon" src="css/img/icons/service/clock.svg" alt="">
+                        <div class="service__subitem">
+                            <h1 class="service__subitem__title">Качество топлива</h1>
+                            <div class="service__subitem__text">Aliquam rhoncus et massa adipiscing risus leo nec lacus, sagittis. Eu, purus ac nisi sit eget sed et, adipiscing felis.</div>
+                        </div>
+                    </div>
+                    <div class="service__item">
+                        <img class="service__item__icon" src="css/img/icons/service/ruble.svg" alt="">
+                        <div class="service__subitem">
+                            <h1 class="service__subitem__title">Качество топлива</h1>
+                            <div class="service__subitem__text">Aliquam rhoncus et massa adipiscing risus leo nec lacus, sagittis. Eu, purus ac nisi sit eget sed et, adipiscing felis.</div>
+                        </div>
+                    </div>
+                    <div class="service__item">
+                        <img class="service__item__icon" src="css/img/icons/service/place.svg" alt="">
+                        <div class="service__subitem">
+                            <h1 class="service__subitem__title">Качество топлива</h1>
+                            <div class="service__subitem__text">Aliquam rhoncus et massa adipiscing risus leo nec lacus, sagittis. Eu, purus ac nisi sit eget sed et, adipiscing felis.</div>
+                        </div>
+                    </div>
+                    <div class="service__item">
+                        <img class="service__item__icon" src="css/img/icons/service/shield.svg" alt="">
+                        <div class="service__subitem">
+                            <h1 class="service__subitem__title">Качество топлива</h1>
+                            <div class="service__subitem__text">Aliquam rhoncus et massa adipiscing risus leo nec lacus, sagittis. Eu, purus ac nisi sit eget sed et, adipiscing felis.</div>
+                        </div>
+                    </div>
+                    <div class="service__item">
+                        <img class="service__item__icon" src="css/img/icons/service/way.svg" alt="">
+                        <div class="service__subitem">
+                            <h1 class="service__subitem__title">Качество топлива</h1>
+                            <div class="service__subitem__text">Aliquam rhoncus et massa adipiscing risus leo nec lacus, sagittis. Eu, purus ac nisi sit eget sed et, adipiscing felis.</div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Certificate -->
+    <section class="certificate">
+        <div class="container">
+            <div class="certificate__inner">
+
+                <div class="certificate__outer first--outer">
+                    <h1 class="certificate__title">Сертификаты качества топлива</h1>
+                    <div class="certificate__outer__vector ">
+                        <button  class="swiper-button-prev1 " >
+                            <i class="fa-solid fa-arrow-left-long"></i>
+                        </button>
+                        <button class="swiper-button-next1">
+                            <i class="fa-solid fa-arrow-right-long"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="certificate__outer swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        
+                    
+                    <div class="certificate__item swiper-slide">
+                        <img class="certificate__item__img" src="css/img/certificate/image 1.png" alt="">
+                    </div>
+                    <div class="certificate__item swiper-slide">
+                        <img class="certificate__item__img" src="css/img/certificate/image 1.png" alt="">
+                    </div>
+                    <div class="certificate__item swiper-slide">
+                        <img class="certificate__item__img" src="css/img/certificate/image 1.png" alt="">
+                    </div>
+                    <div class="certificate__item end swiper-slide">
+                        <img class="certificate__item__img" src="css/img/certificate/image 1.png" alt="">
+                    </div>
+                    <div class="certificate__item end swiper-slide">
+                        <img class="certificate__item__img" src="css/img/certificate/image 1.png" alt="">
+                    </div>
+                    <div class="certificate__item end swiper-slide">
+                        <img class="certificate__item__img" src="css/img/certificate/image 1.png" alt="">
+                    </div>
+                    <div class="certificate__item end swiper-slide">
+                        <img class="certificate__item__img" src="css/img/certificate/image 1.png" alt="">
+                    </div>
+                    <div class="certificate__item end swiper-slide">
+                        <img class="certificate__item__img" src="css/img/certificate/image 1.png" alt="">
+                    </div>
+                </div>
+                
+                <div class="swiper-pagination"></div>
+            
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Partners -->
+    <section class="partners">
+        <div class="container">
+            <div class="partners__inner">
+            
+                <h1 class="partners__title">Наши партнеры</h1>
+
+                <div class="partners__outer">
+                    <div class="partners__item">
+                        <img class="partners__item__img" src="css/img/partners/LUK_OIL_Logo_kyr 1.svg" alt="">
+                    </div>
+                    <div class="partners__item">
+                        <img class="partners__item__img media--none" src="css/img/partners/gazprom.svg" alt="">
+                    </div>
+                    <div class="partners__item item-none media--none">
+                        <img class="partners__item__img" src="css/img/partners/Rosneft_Logo 1.svg" alt="">
+                    </div>
+                    <div class="partners__item item-none media--none">
+                        <img class="partners__item__img" src="css/img/partners/Tatneft-Logo 1.svg" alt="">
+                    </div>
+                </div>
+
+                <div class="partners__ellipses">
+                    <a href="#">
+                        <img class="active--ellipse" src="css/img/partners/icons/Ellipse 2.svg" alt="">
+                    </a>
+                    <a href="#">
+                        <img class="partners__ellipse" src="css/img/partners/icons/Ellipse 3.svg" alt="">
+                    </a>
+                    <a href="#">
+                        <img class="partners__ellipse" src="css/img/partners/icons/Ellipse 3.svg" alt="">
+                    </a>
+                    <a href="#">
+                        <img class="partners__ellipse" src="css/img/partners/icons/Ellipse 3.svg" alt="">
+                    </a>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Comment -->
+    <section class="comment">
+        <div class="container">
+            <div class="comment__inner">
+
+                <div class="certificate__outer first--outer comment--title">
+
+                    <h1 class="certificate__title">Отзывы</h1>
+
+                    <div class="certificate__outer__vector">
+                        <button>
+                            <i class="fa-solid fa-arrow-left-long"></i>
+                        </button>
+                        <button>
+                            <i class="fa-solid fa-arrow-right-long"></i>
+                        </button>
+                    </div>
+
+                </div>
+
+                <div class="comment__outer">
+                    <div class="comment__item">
+                        <div class="comment__item__inner">
+                            <div class="comment__name">Гусев Вячеслав</div>
+                            <div class="comment__profession">Индивидуальный предприниматель</div>
+                            <div class="comment__text">Velit, lectus sit urna tincidunt augue. Cursus vulputate pellentesque faucibus euismod. Diam pharetra, non, ut integer dui feugiat porttitor at. Non, dignissim enim viverra fringilla sit. Etiam justo a dignissim sociis vitae, nisi, justo, feugiat.</div>
+                            <a class="comments__more" href="#">Подробнее</a>
+                        </div>
+                    </div>
+                    
+                    <div class="comment__item media--none">
+                        <div class="comment__item__inner">
+                            <div class="comment__name">Гусев Вячеслав</div>
+                            <div class="comment__profession">Индивидуальный предприниматель</div>
+                            <div class="comment__text">Velit, lectus sit urna tincidunt augue. Cursus vulputate pellentesque faucibus euismod. Diam pharetra, non, ut integer dui feugiat porttitor at. Non, dignissim enim viverra fringilla sit. Etiam justo a dignissim sociis vitae, nisi, justo, feugiat.</div>
+                            <a class="comments__more" href="#">Подробнее</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="comment__btn">
+                    <a class="comment__button" href="#">Читать все отзывы</a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <section class="footer">
+        <div class="container">
+            <div class="footer__inner">
+
+                <h1 class="footer__title">
+                    Остались вопросы?
+                </h1>
+                <div class="footer__text">
+                    <span class="text-f">Готовы ответить на любой ваш вопрос. Оставьте свой номер телефона и мы свяжемся с вами в ближайшее время</span>
+                </div>
+
+                <div class="footer__item">
+                    <form action="">
+                        <input class="footer__input" type="text" placeholder="Ваше имя">
+                    </form>
+                    <form action="">
+                        <input class="footer__input" type="text" placeholder="Номер телефона">
+                    </form>
+                    <a class="intro__btn footer__btn" href="">Перезвоните мне</a>
+                </div>
+
+                <div class="footer__subtext">
+                    Нажимая на кнопку "Перезвоните мне" я соглашаюсь с <span>политикой конфидициальности</span>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <div class="under__footer">
+        <div class="container">
+            <div class="under__footer__inner">
+
+                <div class="under__footer__item">
+                    <img src="css/img/logo.svg" alt="">
+                </div>
+
+                <div class="under__footer__item">
+                    <ul>
+                        <li>Карта АЗС</li>
+                        <li>АЗС по регионам</li>
+                        <li>АЗС по брендам</li>
+                        <li>Доставка топлива</li>
+                    </ul>
+                </div>
+
+                <div class="under__footer__item">
+                    <ul>
+                        <li>Контакты</li>
+                        <li>О компании</li>
+                        <li>Личный кабинет</li>
+                    </ul>
+                </div>
+
+                <div class="under__footer__item">
+                    <ul>
+                        <li><b>Отдел продаж</b></li>
+                        <li style="color: #098FCF" ><b>8(495)127-81-70</b></li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <script src="app/app.js">
+        import Swiper from 'https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.esm.browser.min.js'
+        const swiper = new Swiper('')
+    </script>
+
+</body>
+</html>
